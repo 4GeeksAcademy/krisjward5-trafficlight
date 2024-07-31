@@ -1,8 +1,18 @@
+.daContainer {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center;
+}
+
 .daLight {
-    width: 500px;
-    height: 800px;
+    width: 200px;
+    height: 500px;
     background: black;
-    padding: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .redLight {
@@ -28,4 +38,23 @@
 
 .selected {
     box-shadow: -2px -43px 100px 100px rgb(233, 230, 210);
+}
+
+.button {
+background: black;
+color: white;
+margin-top: 2rem;
+margin-bottom: 2rem;
+width: 200px;
+}
+
+.purpleLight {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: purple;
+}
+
+.button:hover {
+    background-color: #0056b3;
 }

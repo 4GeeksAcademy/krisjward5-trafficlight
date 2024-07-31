@@ -33,7 +33,7 @@
 import React, { useState } from "react";
 export function TrafficLight() {
     const [colors, setColors] = useState(["red", "yellow", "green"]);
-    const [currentColorIndex, setCurrentColorIndex] = useState(0);
+    const [currentColorIndex, setCurrentColorIndex] = useState("");
     const cycleColors = () => {
         setCurrentColorIndex((prevIndex) => (prevIndex + 1) % colors.length);
     };
